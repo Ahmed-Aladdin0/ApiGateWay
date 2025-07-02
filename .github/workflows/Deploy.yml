@@ -6,7 +6,7 @@ on:
     branches: ["main"]
 
 env:
-  APP_NAME: "APIgateway"
+  APP_NAME: "apigateway"
   RESOURCE_GROUP: "docker-SC"
   DOCKER_IMAGE: "docker.io/ahmedaladdin0/apigateway:${{ github.sha }}"
 
